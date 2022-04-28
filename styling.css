@@ -1,0 +1,37 @@
+body {
+  background: rgb(55, 85, 236);
+  background: radial-gradient(
+    circle,
+    rgba(55, 85, 236, 1) 0%,
+    rgba(252, 103, 70, 1) 100%
+  );
+  font-family: "Acme", sans-serif;
+  font-size: 150%;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.section-content {
+  border: 3px dashed blue;
+  width: 300px;
+  margin: 35px;
+}
+.section-content--centered {
+  display: flex;
+  justify-content: center;
+  border: 0 dashed greenyellow;
+  width: 300px;
+}
+
+.box-link {
+  text-decoration: none;
+  color: unset;
+}
+
+.main-content-box {
+  border: 2px solid red;
+}
