@@ -13,18 +13,24 @@ main {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  flex-direction: column;
 }
 
 .section-content {
   border: 3px dashed blue;
-  width: 300px;
+  width: 100%;
   margin: 35px;
+}
+img {
+  width: 30%;
+  margin: 0 1rem;
 }
 .section-content--centered {
   display: flex;
   justify-content: center;
+  flex-direction: row;
   border: 0 dashed greenyellow;
-  width: 300px;
+  width: 100%;
 }
 
 .box-link {
@@ -34,4 +40,33 @@ main {
 
 .main-content-box {
   border: 2px solid red;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td,
+th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #d1256777;
+}
+.gmap_canvas {
+  overflow: hidden;
+  background: none !important;
+  height: 100%;
+  width: 100%;
+}
+.mapouter {
+  position: relative;
+  text-align: right;
+  height: 100%;
+  width: 100%;
 }
